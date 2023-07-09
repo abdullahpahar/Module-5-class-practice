@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{
+font-family: 'Open Sans', sans-serif;
+}
+.colr{
+    color:#FD6E0A;
+}
+.al{
+    text-align: center;
+}
+.btn{
+    border:0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #FD6E0A;
+    padding:15px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-wrapper{
+    background-color:#FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 15px;
+    margin-left:30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#474747;
+}
+.header-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+.header-content-title{
+    font-size: 45px;
+    font-weight: 700;
+    color:#474747;
+    margin-bottom: 0;
+}
+.header-content-left{
+    max-width: 500px;
+   
+}
+.header-content-right img{
+    width: 500px;
+}
+.header-content-title-2{
+    font-size: 85px;
+    font-weight: 700;
+    color:#181818;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.description{
+    color: #757575;
+    margin-top: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+.main-sec{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.hb{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: #181818;
+}
+.about-section{
+    background-color: #FFF8F3;
+    border-radius: 15px;
+    padding:130px;
+    margin:150px 0;
+    margin-bottom: 50px;
+}
+.about-first P{
+    text-align: center;
+}
+.about-second{
+    display: flex;
+    justify-content: space-around;
+}
+.al {
+    padding: 30px 150px;
+}
+.what-ido-second {
+    display: flex;
+    gap:50;
+}
+
+.what-ido-skill-box {
+    padding: 30px 10px 10px 20px ;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 34px;
+    margin-bottom: 20px;
+}
+.skill-p{
+    text-align: left;
+     color: #757575;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.resume-wrapper{
+   display: flex; 
+   justify-content: space-between;
+   gap:50;
+  
+}
+.resume-head-title{
+    font-size:35px;
+    font-weight: 700;
+    text-align: center;
+    color:#181818;
+}
+.resume-item h2{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item h3{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-left {
+    margin-right: 30px;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.resume-right {
+    padding: 50px 10px;
+    margin-top: 20px;
+}
+.resume-btn{
+    text-align: center;
+}
+.resume-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#757575
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+    background-color: #FFF8F3;
+    margin-top: 80px;
+    border-radius: 5px;
+    width: 1260px;
+}
+footer h1{
+    font-size: 35px;
+    font-weight: 700;
+    color:#181818;
+    text-align: center;
+}
+footer p{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+footer input[type="text"], .contact input[type="email"], textarea{
+    margin-bottom: 25px;
+    padding:18px 15px;
+    color:#474747;
+    border-radius: 5px;
+    background-color: #fff;
+    border:0;
+    width: 100%;
+    margin-left: 50px;
+    outline: none;
+    padding-right: 20px;
+}
+.footer-right{
+    width: 50%;
+    margin-left:30px;
+    padding-left:50px;
+}
+.footer-left{
+    width:50%;
+    margin-right: 30px;
+}
